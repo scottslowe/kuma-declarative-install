@@ -1,6 +1,6 @@
 # Creating Declarative YAML to Install Kuma
 
-This repository contains instructions and resources to create reusable YAML for installing [Kuma service mesh](https://kuma.io) in a declarative fashion.
+This repository contains instructions and resources to create reusable YAML for installing [Kuma](https://kuma.io) in a declarative fashion.
 
 ## Prerequisites
 
