@@ -1,6 +1,6 @@
 # Creating Declarative YAML to Install Kuma
 
-This repository contains instructions and resources to create reusable YAML for installing Kuma service mesh in a declarative fashion.
+This repository contains instructions and resources to create reusable YAML for installing [Kuma service mesh](https://kuma.io) in a declarative fashion.
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ The `tls-assets.yaml` file in this repository contains definitions for the requi
 
 Set your `kubectl` context to the correct cluster with appropriate credentials, and then apply the manifest:
 
-    kubectl apply -f modified-yaml-file.yaml
+    kubectl apply -f modified-kuma-yaml-file.yaml
 
 As long as cert-manager is installed on the target cluster, you can re-use this same YAML file over and over again with no changes (you just need to create the TLS assets with cert-manager first).
 
