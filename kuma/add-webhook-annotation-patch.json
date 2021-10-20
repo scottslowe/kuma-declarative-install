@@ -1,0 +1,7 @@
+[
+  { "op": "add",
+    "path": "/metadata/annotations", 
+    "value": 
+      { "cert-manager.io/inject-ca-from": "kuma-system/kuma-root-ca" }
+  }
+]

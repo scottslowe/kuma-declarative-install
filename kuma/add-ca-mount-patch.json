@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/spec/template/spec/volumes/0",
+    "value": {
+      "name": "general-ca-crt",
+      "secret": {
+        "secretName": "kuma-root-ca"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/spec/template/spec/containers/0/volumeMounts/0",
+    "value": {
+      "name": "general-ca-crt",
+      "mountPath": "/var/run/secrets/kuma.io/ca-cert",
+      "readOnly": true
+    }
+  }
+]
