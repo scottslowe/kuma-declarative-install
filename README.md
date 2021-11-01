@@ -57,4 +57,4 @@ As long as cert-manager is installed on the target cluster, you can re-use this 
 
 ## Caveats/Limitations
 
-These instructions only apply to standalone (single-zone) Kubernetes-based installations of Kuma. Multi-zone installations and Universal zones are not addressed here.
+These instructions only apply to standalone (single-zone) Kubernetes-based installations of Kuma. Multi-zone installations are discussed in [`multizone.md`](./multizone.md). Universal zones are not addressed here.
