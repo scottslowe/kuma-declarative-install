@@ -5,8 +5,8 @@ This repository contains instructions and resources to create reusable YAML for 
 ## Prerequisites
 
 1. You will need a working Kubernetes cluster with a CNI plugin installed. These instructions were tested with Kubernetes 1.22 and the Calico CNI plugin. (Other CNI plugins should work, but weren't tested.)
-2. You will need the `kumactl` command-line utility installed. Kuma 1.3.1 was used for these instructions (the latest release at the time this was written). Refer to [the Kuma docs](https://kuma.io/docs/1.3.1/) for installing `kumactl`.
-3. You will need [cert-manager](https://cert-manager.io) installed on the Kubernetes cluster. Follow the instructions [here](https://cert-manager.io/docs/installation/) to install cert-manager. These instructions were tested with cert-manager 1.5.4 (the latest release at the time this was written).
+2. You will need the `kumactl` command-line utility installed. Kuma 1.4.0 was used for these instructions (the latest release at the time this was written). Refer to [the Kuma docs](https://kuma.io/docs/1.4.0/) for installing `kumactl`.
+3. You will need [cert-manager](https://cert-manager.io) installed on the Kubernetes cluster. Follow the instructions [here](https://cert-manager.io/docs/installation/) to install cert-manager. These instructions were tested with cert-manager 1.5.4, but newer versions should work equally well.
 
 ## Creating Reusable Declarative YAML for Kuma
 
