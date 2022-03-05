@@ -1,0 +1,7 @@
+[
+    { "op": "remove", "path": "/webhooks/0/clientConfig/caBundle" },
+    { "op": "remove", "path": "/webhooks/1/clientConfig/caBundle" },
+    { "op": "remove", "path": "/webhooks/2/clientConfig/caBundle" },
+    { "op": "remove", "path": "/webhooks/3/clientConfig/caBundle" },
+    { "op": "remove", "path": "/webhooks/4/clientConfig/caBundle" }
+]
