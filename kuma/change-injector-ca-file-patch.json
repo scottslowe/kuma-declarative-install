@@ -1,5 +1,0 @@
-[
-  { "op": "replace",
-    "path": "/spec/template/spec/containers/0/env/12/value",
-    "value": "/var/run/secrets/kuma.io/ca-cert/ca.crt" }
-]
